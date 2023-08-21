@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="./async.js"></script>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page</title>
+    <!-- <script src="./basics1.js"></script> -->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div>
+      <p class="lorem ipsum">
+        Lorem <i>ipsum</i> <strong><em>dolor</em></strong> sit amet, consectetur adipisicing elit. Atque, sit.
+      </p>
+      <p class="lorem" id="my-id">Lorem ipsum dolor sit amet.</p>
+      <pre class="lorem">preformatted text</pre>
+      <span>This is an inline element</span>
+      <span>This is another inline element</span>
+      <p>
+        <a href="http://www.google.com" target="_blank">Go To Google</a>
+      </p>
+      <img src="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg" alt="a landscape" width="300">
+    </div>
+
+    <form>
+      <fieldset>
+        <label for="user-name">Write your user name:</label>
+        <input type="text" id="user-name" name="user" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="password">Write your password:</label>
+        <input type="password" id="password" name="password" />
+      </fieldset>
+
+      <select name="languages" id="languages">
+        <option value="js">javaScript</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+      </select>
+
+      <textarea name="asdf" id="asdf" cols="30" rows="10"></textarea>
+
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <h1>This is the most important heading</h1>
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+
+    <ol>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ol>
+
+    <ul>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Bootcamp</th>
+        <th>City</th>
+      </tr>
+      <tr>
+        <td>Jose Perez</td>
+        <td>FullStack WebDev</td>
+        <td>Madrid</td>
+      </tr>
+      <tr>
+        <td>Michael Smith</td>
+        <td>FrontEnd WebDev</td>
+        <td>Barcelona</td>
+      </tr>
+      <tr>
+        <td>Ariel Quinones</td>
+        <td>MasterChef WebDev</td>
+        <td>Miami</td>
+      </tr>
+    </table>
+  </body>
 </html>
